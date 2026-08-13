@@ -31,12 +31,18 @@ int main()
 // }
 // return 0;
 
-int i,n;
-cout<<"enter the number ";
-cin>>n;
- for(i=n;i<=100;i+=3)
- {
-    cout<<i<<endl;
- }
- 
+// int i,n;
+// cout<<"enter the number ";
+// cin>>n;
+//  for(i=n;i<=100;i+=3)
+//  {
+//     cout<<i<<endl;
+//  }
+ int i,n;
+ cout<<"enter the number: ";
+ cin>>n;
+for(i=1;i<=10;i++)
+{
+    cout<<n*i<<endl;
+}
 }
