@@ -20,16 +20,23 @@ int main()
 //     cout<<name<<endl;
 // }
 
+// int i,n;
+// cout<<"enter the number ";
+// cin>>n;
+ 
+// for(i=n;i>=1;i--)
+// {
+//     cout<<i<<endl;
+   
+// }
+// return 0;
+
 int i,n;
 cout<<"enter the number ";
 cin>>n;
- 
-for(i=n;i>=1;i--)
-{
+ for(i=n;i<=100;i+=3)
+ {
     cout<<i<<endl;
-   
+ }
+ 
 }
-return 0;
-}
-
-
