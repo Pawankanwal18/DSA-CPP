@@ -13,12 +13,23 @@ int main()
     // }
     // return 0;
 
-char name;
+// char name;
 
-for(name='a';name<='z';name++)
+// for(name='a';name<='z';name++)
+// {
+//     cout<<name<<endl;
+// }
+
+int i,n;
+cout<<"enter the number ";
+cin>>n;
+ 
+for(i=n;i>=1;i--)
 {
-    cout<<name<<endl;
+    cout<<i<<endl;
+   
 }
+return 0;
 }
 
 
