@@ -38,11 +38,20 @@ int main()
 //  {
 //     cout<<i<<endl;
 //  }
- int i,n;
- cout<<"enter the number: ";
- cin>>n;
-for(i=1;i<=10;i++)
+//  int i,n;
+//  cout<<"enter the number: ";
+//  cin>>n;
+// for(i=1;i<=10;i++)
+// {
+//     cout<<n*i<<endl;
+// }
+
+int i,sum=0,n;
+cout<<"enter the number: ";
+cin>>n;
+for(i=1;i<=n;i++)
 {
-    cout<<n*i<<endl;
+    sum= sum+i;
 }
+cout<<"sum: "<<sum<<endl;
 }
