@@ -38,4 +38,18 @@ int main()
 
 //     cout<<endl;
 // }
+
+cout<<"Enter the input ";
+cin>>n;
+for (row=n;row>=1;row--)
+{
+    //space
+    for(col=1;col<=n-row;col++)
+    cout<<" ";
+    //star print
+    for(col=1;col<=2*row-1;col++)
+    cout<<"* ";
+
+    cout<<endl;
+}
 }
