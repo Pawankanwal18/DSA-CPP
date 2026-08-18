@@ -1,19 +1,14 @@
-#include<iostream>
+#include <iostream>
+#include <stack>
 using namespace std;
 
-int main(){
+int main() {
+    stack<int> s;
 
-    int n;
-    cout<<"enter the input";
-    cin>>n;
+    s.push(17);
+    s.push(0);
+    s.push(1);
+    s.push(15);
+    s.push(4);
 
-
-    int i=1;
-    while(i<=n)
-    {
-        if(i==4)
-        break;
-        cout<<i<<" ";
-        i++;
-    }
 }
