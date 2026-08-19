@@ -26,19 +26,20 @@ int i=2;
 // }
 
 
-switch(i){
+// switch(i){   //we can create a sunday monday also in code 
 
 
-case 1 :
-cout<<"hello";
-break;
+// case 1 :
+// cout<<"hello";
+// break;
 
-case 2:
-cout<<"yes sir";
-break;
+// case 2:
+// cout<<"yes sir";
+// break;
 
-case 3:
-cout<<"ooo hello";
-break;
-}
-}
+// case 3:
+// cout<<"ooo hello";
+// break;
+// }
+// }
+
