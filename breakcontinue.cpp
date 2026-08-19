@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-int i=1;
+int i=2;
 
 // for(i=1;i<=10;i++)
 // {
@@ -24,3 +24,21 @@ int i=1;
 
 //  }
 // }
+
+
+switch(i){
+
+
+case 1 :
+cout<<"hello";
+break;
+
+case 2:
+cout<<"yes sir";
+break;
+
+case 3:
+cout<<"ooo hello";
+break;
+}
+}
