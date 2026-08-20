@@ -12,15 +12,29 @@ int main(){
     cin>>num;
     int rem, ans=0, mul=1;
    
-    while(num>0)
-    {
-        rem=num%2;  //reminder part
+//     while(num>0)
+//     {
+//         rem=num%2;  //reminder part
 
-        num/=2; //quotient part
+//         num/=2; //quotient part
 
-        ans+= rem*mul, //ans
+//         ans+= rem*mul, //ans
         
-        mul *=10;  //mul
-    }
-    cout<<ans<<endl;
+//         mul *=10;  //mul
+//     }
+//     cout<<ans<<endl;
+// }
+while(num>0)
+{
+   
+    rem = num%10;
+    
+    num = num/10;
+    
+    ans = rem*mul+ans;
+
+    mul =mul*2;
+
+}
+cout<<ans<<endl;
 }
