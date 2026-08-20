@@ -31,9 +31,9 @@ while(num>0)
     
     num = num/10;
     
-    ans = rem*mul+ans;
+    ans += rem*mul;
 
-    mul =mul*2;
+    mul *=2;
 
 }
 cout<<ans<<endl;
