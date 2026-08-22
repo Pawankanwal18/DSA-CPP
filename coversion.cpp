@@ -22,7 +22,7 @@ int main(){
         
 //         mul *=10;  //mul
 //     }
-//     cout<<ans<<endl;  
+//     cout<<ans<<endl;   
 // }
 while(num>0)
 {
